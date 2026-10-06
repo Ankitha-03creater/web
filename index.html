@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankitha | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f8e8ff, #e8f0ff);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #6c4ab6;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6c4ab6;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #e75480;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .hero {
+            background: white;
+            padding: 45px 30px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h2 {
+            color: #6c4ab6;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #6c4ab6;
+            margin: 45px 0 25px;
+            font-size: 28px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #6c4ab6;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .education {
+            background: white;
+            padding: 30px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .education h3 {
+            color: #6c4ab6;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        footer {
+            background: #6c4ab6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Ankitha</h1>
+        <p>Computer Science Engineering Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="hero" id="about">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                Hello! My name is <strong>Ankitha</strong>.
+                I am studying Computer Science Engineering (CSE)
+                at <strong>Jain Institute of Technology</strong>.
+                I am passionate about learning new things, being creative,
+                and enjoying my hobbies.
+            </p>
+        </section>
+
+        <h2 class="section-title" id="education">My Education</h2>
+
+        <section class="education">
+            <h3>Jain Institute of Technology</h3>
+            <p>
+                <strong>Branch:</strong> Computer Science and Engineering (CSE)
+            </p>
+        </section>
+
+        <h2 class="section-title" id="hobbies">My Hobbies</h2>
+
+        <section class="cards">
+
+            <div class="card">
+                <div class="icon">🎨</div>
+                <h3>Drawing</h3>
+                <p>
+                    I enjoy drawing and expressing my creativity through art.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎤</div>
+                <h3>Singing</h3>
+                <p>
+                    Singing is something I love and enjoy in my free time.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏍️</div>
+                <h3>Riding</h3>
+                <p>
+                    I love riding and enjoy the freedom and excitement it brings.
+                </p>
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Ankitha | My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
